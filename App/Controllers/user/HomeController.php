@@ -121,6 +121,7 @@ class HomeController extends Controller
   {
     $cart = $_SESSION['products'];
     $total = 0;
+    
     $this->view('site/cart', ['cart' => $cart, 'total' => $total]);
   }
   public function deleteCart(Request $request)
