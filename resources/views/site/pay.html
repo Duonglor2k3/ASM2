@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.tailwindcss.com/3.1.3"></script>
+  </head>
+
+  <body class="bg-[#f9f9f9]">
+    <div class="container w-full m-auto font-['Roboto Serif'] font-sans">
+      <header class="">
+        <div class="flex items-center justify-between py-5">
+          <div class="logo w-[70px]">
+            <img src="./images/logo (1).png" class="w-full h-full" alt="" />
+          </div>
+          <form class="flex">
+            <input
+              type="text"
+              name=""
+              id=""
+              class="py-2 outline-none w-[340px] pl-[10px] bg-[#E8E8E8] rounded-l-[5px]"
+              placeholder="Tìm sản phẩm ở đây..."
+            />
+            <button class="px-3 flex items-center bg-[#E8E8E8] rounded-r-[5px]">
+              <img src="./images/bx_search-alt-2.png" alt="" />
+            </button>
+          </form>
+
+          <div class="phone items-center flex pl-[80px]">
+            <img src="./images/Group 33.png" alt="" />
+            <div class="pl-[10px]">
+              <p class="font-['Roboto Serif'] text-[#414141]">
+                Hỗ trợ khách hàng
+              </p>
+              <p class="font-[700] text-[#414141]">0123456789</p>
+            </div>
+          </div>
+          <div class="login flex items-center pl-[50px]">
+            <img src="./images/login.png" alt="" />
+            <div class="pl-[10px]">
+              <div>
+                <a class="font-['Roboto Serif'] text-[#414141] underline"
+                  >Đăng nhập</a
+                >
+              </div>
+              <a class="text-[#414141] underline">Đăng kí</a>
+            </div>
+          </div>
+          <div class="cart flex pl-[75px]">
+            <div
+              class="w-[157px] h-[44px] border-[3px] bg-red rounded-[10px] items-center flex"
+            >
+              <img src="./images/cart.png" alt="" class="pl-[5px]" />
+              <span class="px-[10px] text-[15] text-[#414141] text-center"
+                >Giỏ hàng</span
+              >
+              <div
+                class="bg-[#FFC107] w-[17px] h-[18px] text-center rounded-[3px] text-[13px] text-[#414141]"
+              >
+                0
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav
+          class="menu w-full h-[65px] bg-[#198754] flex items-center justify-center"
+        >
+          <ul class="flex justify-around gap-9">
+            <li class="text-[#ffffff]"><a href="">Trang chủ</a></li>
+            <li class="text-[#ffffff]"><a href="">Trang chủ</a></li>
+            <li class="text-[#ffffff]"><a href="">Trang chủ</a></li>
+            <li class="text-[#ffffff]"><a href="">Trang chủ</a></li>
+            <li class="text-[#ffffff]"><a href="">Trang chủ</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="flex shadow-md my-10">
+          <div class="w-full bg-white px-10 py-10">
+            <div class="flex justify-between border-b pb-8">
+              <h1 class="font-semibold text-2xl">Thanh toán</h1>
+              <h2 class="font-semibold text-2xl">3 Sản phẩm</h2>
+            </div>
+            <div class="flex mt-10 mb-5">
+              <h3 class="font-semibold text-gray-600 text-xs uppercase w-2/5">
+                Chi tiết sản phẩm
+              </h3>
+              <h3
+                class="font-semibold text-center text-gray-600 text-xs uppercase w-1/5 text-center"
+              >
+                Số lượng
+              </h3>
+              <h3
+                class="font-semibold text-center text-gray-600 text-xs uppercase w-1/5 text-center"
+              >
+                Giá
+              </h3>
+              <h3
+                class="font-semibold text-gray-600 text-xs uppercase w-1/5 text-center"
+              >
+                Tổng thanh toán
+              </h3>
+            </div>
+            <div class="flex items-center hover:bg-gray-100 -mx-8 px-6 py-5">
+              <div class="flex w-2/5">
+                <!-- product -->
+                <div class="w-20">
+                  <img
+                    class="h-24"
+                    src="https://drive.google.com/uc?id=18KkAVkGFvaGNqPy2DIvTqmUH_nk39o3z"
+                    alt=""
+                  />
+                </div>
+                <div class="flex flex-col justify-between ml-4 flex-grow">
+                  <span class="font-bold text-sm">Iphone 6S</span>
+                  <span class="text-red-500 text-xs">Loại</span>
+                  <span class="text-red-500 text-xs">Apple</span>
+                </div>
+              </div>
+              <div class="flex justify-center w-1/5">
+                <div class="mx-2 text-center w-8">1</div>
+              </div>
+              <span class="text-center w-1/5 font-semibold text-sm"
+                >4.000.000</span
+              >
+              <span class="text-center w-1/5 font-semibold text-sm"
+                >4.000.000</span
+              >
+            </div>
+
+            <div class="flex items-center hover:bg-gray-100 -mx-8 px-6 py-5">
+              <div class="flex w-2/5">
+                <!-- product -->
+                <div class="w-20">
+                  <img
+                    class="h-24"
+                    src="https://drive.google.com/uc?id=10ht6a9IR3K2i1j0rHofp9-Oubl1Chraw"
+                    alt=""
+                  />
+                </div>
+                <div class="flex flex-col justify-between ml-4 flex-grow">
+                  <span class="font-bold text-sm">Xiaomi Mi 20000mAh</span>
+                  <span class="text-red-500 text-xs">Loại</span>
+                  <span class="text-red-500 text-xs">Xiaomi</span>
+                </div>
+              </div>
+              <div class="flex justify-center w-1/5">
+                <div class="mx-2 text-center w-8">1</div>
+              </div>
+              <span class="text-center w-1/5 font-semibold text-sm"
+                >2.000.000</span
+              >
+              <span class="text-center w-1/5 font-semibold text-sm"
+                >2.000.000</span
+              >
+            </div>
+
+            <div class="flex items-center hover:bg-gray-100 -mx-8 px-6 py-5">
+              <div class="flex w-2/5">
+                <!-- product -->
+                <div class="w-20">
+                  <img
+                    class="h-24"
+                    src="https://drive.google.com/uc?id=1vXhvO9HoljNolvAXLwtw_qX3WNZ0m75v"
+                    alt=""
+                  />
+                </div>
+                <div class="flex flex-col justify-between ml-4 flex-grow">
+                  <span class="font-bold text-sm">Airpods</span>
+                  <span class="text-red-500 text-xs">Loại</span>
+                  <span class="text-red-500 text-xs">Apple</span>
+                </div>
+              </div>
+              <div class="flex justify-center w-1/5">
+                <div class="mx-2 text-center w-8">1</div>
+              </div>
+              <span class="text-center w-1/5 font-semibold text-sm"
+                >6.000.000</span
+              >
+              <span class="text-center w-1/5 font-semibold text-sm"
+                >6.000.000</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="w-full h-auto block h-screen shadow p-4 flex items-center justify-center"
+        >
+          <div class="bg-white py-6 px-10 sm:max-w-md w-full">
+            <div
+              class="sm:text-3xl text-2xl font-semibold text-center text-sky-600 mb-12"
+            >
+              Thông tin người nhân
+            </div>
+            <div class="">
+              <div>
+                <input
+                  type="text"
+                  class="focus:outline-none border-b w-full pb-2 border-sky-400 placeholder-gray-500"
+                  placeholder="Tên "
+                />
+              </div>
+              <div>
+                <input
+                  type="email"
+                  class="focus:outline-none border-b w-full pb-2 border-sky-400 placeholder-gray-500 my-8"
+                  placeholder="Điện thoại"
+                />
+              </div>
+
+              <div>
+                <label class="">Địa chỉ</label>
+                <textarea
+                  class="focus:outline-none border w-full pb-2 border-sky-400 placeholder-gray-500 mb-8"
+                ></textarea>
+              </div>
+
+              <div class="flex justify-center my-6">
+                <button
+                  class="rounded-full p-3 w-full sm:w-56 bg-green-400 from-sky-600 to-teal-300 text-white text-lg font-semibold"
+                >
+                  Thanh toán
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <section class="bg-[#198754] font-['Inter']">
+          <div class="flex justify-around pb-[78px]">
+            <div class="text-white">
+              <h2 class="font-bold text-[24px] mb-[37px] mt-[72px]">
+                GIỚI THIỆU GOOD MILK
+              </h2>
+              <p class="italic w-[450px]">
+                Good milk là một trong những đơn vị tiên phong trong lĩnh vực
+                sữa dinh dưỡng. Hãy đến ngay với chúng tôi để cảm nhận sự khác
+                biệt.
+              </p>
+            </div>
+            <div class="text-white">
+              <h2 class="font-bold text-[24px] mb-[38px] mt-[50px]">
+                LIÊN HỆ VỚI CHÚNG TÔI
+              </h2>
+              <p class="font-bold text-[20px] mb-[30px]">
+                Shop Good Milk Số 1 Hà Nội - GOOD MILK
+              </p>
+              <p class="mb-[30px] text-[18px]">
+                Shop 1 : Phú Đô, Mỹ Đình, Hà Nội <br />
+                Shop 2 : Số 89, Ngõ 345 Khương Trung, Thanh Xuân, Hà Nội <br />
+                <br />
+                Hotline: 0976.234.272 (Có Zalo, Facebook)
+              </p>
+              <p class="w-[414px] font-medium">
+                Chúng tôi cung cấp nhiều loại sữa để khách hàng có nhiều lựa
+                chọn từ rẻ tiền đến cao cấp nhất trong lĩnh vực Sữa dinh dưỡng.
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-center gap-[43px]">
+            <img src="images/ft1.png" alt="" class="" />
+            <img src="images/ft2.png" alt="" />
+            <img src="images/ft3.png" alt="" />
+            <img src="images/ft4.png" alt="" />
+            <img src="images/ft5.png" alt="" />
+          </div>
+        </section>
+      </footer>
+    </div>
+    ----------
+    <a href="" class="text-blue-500"></a>
+  </body>
+</html>
